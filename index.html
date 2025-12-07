@@ -176,10 +176,12 @@
         <p><strong>Ces données ne quittent jamais votre téléphone.</strong></p>
 
         <h2>Permissions Android</h2>
-        <p>ApneaTrainer Pro demande uniquement les permissions strictement nécessaires :</p>
+        <p>ApneaTrainer Pro demande 4 permissions pour garantir la sécurité de votre entraînement :</p>
         <ul>
-            <li><strong>VIBRATE</strong> : Pour les retours haptiques pendant les sessions</li>
-            <li><strong>WAKE_LOCK</strong> : Pour garder l'écran actif pendant les exercices</li>
+            <li><strong>VIBRATE</strong> : Retours haptiques pendant les sessions</li>
+            <li><strong>WAKE_LOCK</strong> : Maintien de l'écran actif pendant les apnées</li>
+            <li><strong>USE_FULL_SCREEN_INTENT</strong> : Affichage des notifications prioritaires</li>
+            <li><strong>FOREGROUND_SERVICE</strong> : Continuité des annonces vocales en arrière-plan</li>
         </ul>
         <p>Aucune permission d'accès à vos contacts, photos, localisation ou autres données sensibles n'est demandée.</p>
 
@@ -187,22 +189,10 @@
         <p><strong>Aucune donnée n'est partagée, vendue ou transmise à des tiers.</strong></p>
         <p>ApneaTrainer Pro n'utilise :</p>
         <ul>
-            <li>
-                <strong>VIBRATE</strong> (Vibration)
-                <p>Permet les retours haptiques pendant vos sessions d'apnée pour marquer les transitions entre phases sans regarder l'écran.</p>
-            </li>
-            <li>
-                <strong>WAKE_LOCK</strong> (Maintien de l'écran actif)
-                <p>Empêche votre écran de se mettre en veille automatiquement pendant vos exercices d'apnée, afin que le chronomètre reste visible en permanence.</p>
-            </li>
-            <li>
-                <strong>USE_FULL_SCREEN_INTENT</strong> (Notifications prioritaires)
-                <p>Permet d'afficher les notifications importantes de l'application en cas de besoin (non utilisé en temps normal).</p>
-            </li>
-            <li>
-                <strong>FOREGROUND_SERVICE</strong> (Service au premier plan)
-                <p>Garantit que les annonces vocales et le chronomètre continuent de fonctionner même si vous consultez brièvement une autre application pendant les phases de récupération. Cette permission assure une expérience d'entraînement fluide et sécurisée.</p>
-            </li>
+            <li>❌ Aucun service d'analyse (Google Analytics, Firebase, etc.)</li>
+            <li>❌ Aucune publicité</li>
+            <li>❌ Aucun tracker</li>
+            <li>❌ Aucun service cloud</li>
         </ul>
 
         <h2>Sécurité</h2>
